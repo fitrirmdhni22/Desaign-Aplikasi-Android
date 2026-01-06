@@ -5,6 +5,8 @@
 # Mata Kuliah: Pemrograman Mobile 1 (UTS & UAS)
 # Dosen Pengampu: Donny Maulana, S.Kom., M.M.S.I
 
+# Link UX : https://youtube.com/shorts/qNDP7afF8cg?si=_uxsspPD__t_p-gP
+
 Soal :
 Buatkanlah Project masing-masing dan buat Timeline/Gantt Chart atau
 jadwal pada ClickUp masing-masing untuk pembuatan :
