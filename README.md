@@ -6,6 +6,7 @@
 # Dosen Pengampu: Donny Maulana, S.Kom., M.M.S.I
 
 # Link UX : https://youtube.com/shorts/qNDP7afF8cg?si=_uxsspPD__t_p-gP
+# Link Clickup : https://sharing.clickup.com/90181792800/b/h/4-90187740690-2/8e476401a4a6411
 
 Soal :
 Buatkanlah Project masing-masing dan buat Timeline/Gantt Chart atau
@@ -24,3 +25,6 @@ Project dikumpulkan berupa file pdf atau image dan diupload diecampus masing-mas
 Dan diupload pada link Repository (githubs atau Gitlabs) masing-masing, t
 Dan Dikirim ke email : donny.maulana@pelitabangsa.ac.id dengan
 Subject: Project Pemrograman Mobile-1 _Nama project_NIM_Nama_Kelas dan Terima kasih.
+---
+Jawabannya sudah ada di file
+Terima Kasih ~
