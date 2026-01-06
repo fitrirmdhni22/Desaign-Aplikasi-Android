@@ -1,8 +1,8 @@
-# Desaign-Aplikasi-Android
+# Desaign-Aplikasi-Android Jurnalify
 # Nama : Fitri Ramadhani
 # NIM: 312410085
 # Kelas: TI.24.A.1
-# Mata Kuliah: Pemrograman Mobile 1 (UTS)
+# Mata Kuliah: Pemrograman Mobile 1 (UTS & UAS)
 # Dosen Pengampu: Donny Maulana, S.Kom., M.M.S.I
 
 Soal :
