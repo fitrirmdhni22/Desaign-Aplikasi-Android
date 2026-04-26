@@ -6,8 +6,8 @@
 - **Mata Kuliah**    : Pemrograman Mobile 2 (UTS)  
 - **Dosen Pengampu** : Donny Maulana, S.Kom., M.M.S.I.
 - **Link ClickUp**   :
-  - https://sharing.clickup.com/90181792800/g/h/2kzm1x10-638/c04a82a622fe0d1 (Gantt Chart)
-  - https://sharing.clickup.com/90181792800/b/h/4-90187740690-2/8e476401a4a6411 (Board)
+  - https://sharing.clickup.com/90181792800/g/h/2kzm1x10-598/fa7b2d413661937 (Gantt Chart)
+  - https://sharing.clickup.com/90181792800/b/h/6-901812785911-2/4779a73b928d11a (Board)
 - **Link Youtube (UX)**: 
 
 # 📓 Jurnalify - Personal Journal with AI Mood Analyzer
