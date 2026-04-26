@@ -2,7 +2,7 @@
 
 - **Nama**           : Fitri Ramadhani  
 - **NIM**            : 312410085  
-- **Kelas**          : I24A1  
+- **Kelas**          : I241A 
 - **Mata Kuliah**    : Pemrograman Mobile 2 (UTS)  
 - **Dosen Pengampu** : Donny Maulana, S.Kom., M.M.S.I.
 
