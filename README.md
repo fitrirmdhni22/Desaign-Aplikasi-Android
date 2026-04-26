@@ -43,6 +43,9 @@ Fitur spesial yang memberikan sentuhan personal kepada pengguna berdasarkan loka
 # Izin Lokasi
 > <img width="720" height="1493" alt="image" src="https://github.com/user-attachments/assets/95fab7e4-2ee2-43bc-a899-b053bfdb038c" />
 
+> <img width="720" height="1490" alt="image" src="https://github.com/user-attachments/assets/80dd8615-2f3a-4148-9786-04d7fe699c17" />
+
+
 # Bendera Negara
 > <img width="720" height="1566" alt="image" src="https://github.com/user-attachments/assets/20c1ef44-ae46-4a08-8937-1768ba7626e4" />
 
