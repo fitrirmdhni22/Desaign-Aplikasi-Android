@@ -1,30 +1,98 @@
-# Desaign-Aplikasi-Android Jurnalify
-# Nama : Fitri Ramadhani
-# NIM: 312410085
-# Kelas: TI.24.A.1
-# Mata Kuliah: Pemrograman Mobile 1 (UTS & UAS)
-# Dosen Pengampu: Donny Maulana, S.Kom., M.M.S.I
+# 📓 Jurnalify - Personal Journal with AI Mood Analyzer
 
-# Link UX : https://youtube.com/shorts/qNDP7afF8cg?si=_uxsspPD__t_p-gP
-# Link Clickup : https://sharing.clickup.com/90181792800/b/h/4-90187740690-2/8e476401a4a6411
+**Jurnalify** adalah aplikasi catatan harian modern berbasis Android yang mengintegrasikan kecerdasan buatan (**AI**) untuk membantu pengguna memahami suasana hati mereka. Dengan pendekatan *Offline-First*, Jurnalify memastikan setiap kenangan tersimpan aman di perangkat pengguna.
 
-Soal :
-Buatkanlah Project masing-masing dan buat Timeline/Gantt Chart atau
-jadwal pada ClickUp masing-masing untuk pembuatan :
-
-1. Splash Screen (Deteksi location, Bendera/logo pemda,
-Say Hello sesuai lokasi daerah masing-masing)
-2. StoryBoard Project
-3. Mockup Project
-4. UI (User Interface) Project
-5. UX (User Experience) VIDEO PROTOTYPE Upload Project pada Youtube
-6. Upload Project File pdf dan link Repository dan Link ClickUPdan Link Youtube
-pada E-Campus (https://ecampus.pelitabangsa.ac.id/) masing-masing
-
-Project dikumpulkan berupa file pdf atau image dan diupload diecampus masing-masing
-Dan diupload pada link Repository (githubs atau Gitlabs) masing-masing, t
-Dan Dikirim ke email : donny.maulana@pelitabangsa.ac.id dengan
-Subject: Project Pemrograman Mobile-1 _Nama project_NIM_Nama_Kelas dan Terima kasih.
 ---
-Jawabannya sudah ada di file
-Terima Kasih ~
+
+## ✨ Fitur Unggulan
+
+- **🧠 AI Mood Analysis:** Menganalisis teks jurnal secara otomatis menggunakan **Google Gemini AI** untuk menentukan mood dan memberikan pesan motivasi yang hangat.
+- **🏠 Offline Storage:** Menggunakan **Room Database** untuk memastikan data dapat diakses kapan saja tanpa ketergantungan pada koneksi internet.
+- **📱 Modern & Clean UI:** Antarmuka yang intuitif dengan sentuhan Material Design 3.
+- **✍️ Rapi & Nyaman Dibaca:** Implementasi *Text Justify* (rata kiri-kanan) pada isi jurnal dan respon AI agar tampilan lebih profesional.
+
+---
+
+## 🛠️ Tech Stack (Teknologi yang Digunakan)
+
+Aplikasi ini dibangun menggunakan standar pengembangan Android modern:
+- **Language:** Java (Android SDK)
+- **Database:** Room Database (SQLite Abstraction)
+- **Networking:** Retrofit 2 & OkHttp 3 (untuk integrasi AI)
+- **AI Engine:** Google Gemini AI (Gemini 3 Flash Preview)
+- **Architecture:** DAO (Data Access Object) Pattern
+- **UI Components:** Material CardView, ConstraintLayout, ScrollView
+- **Location Services:** Google Play Services Location (untuk deteksi negara pengguna).
+
+---
+
+## 📸 Antarmuka Pengguna (UI Overview)
+
+Di bawah ini adalah penjelasan detail mengenai fungsionalitas dan tampilan antarmuka Jurnalify:
+
+### 1. Splash Screen
+Layar pembuka dengan logo Jurnalify yang memberikan kesan pertama yang elegan dan profesional saat aplikasi dijalankan.
+> <img width="720" height="1488" alt="image" src="https://github.com/user-attachments/assets/8239fe93-c2cf-4765-b635-3139500134a6" />
+
+### 2. Location Permission & Greeting Screen
+Fitur spesial yang memberikan sentuhan personal kepada pengguna berdasarkan lokasi geografis mereka.
+- Location Permission: Layar permintaan izin lokasi yang transparan, menjelaskan bahwa akses lokasi digunakan untuk menampilkan bendera negara pengguna.
+- Smart Greeting: Menggunakan Google Play Services Location untuk mendeteksi lokasi secara real-time dan menampilkan bendera negara serta sapaan selamat datang yang sesuai (misal: "Negara: Indonesia 🇮🇩").
+- Interactive Onboarding: Memberikan pengalaman transisi yang mulus sebelum pengguna masuk ke daftar jurnal utama.
+
+# Izin Lokasi
+> <img width="720" height="1493" alt="image" src="https://github.com/user-attachments/assets/95fab7e4-2ee2-43bc-a899-b053bfdb038c" />
+
+# Bendera Negara
+> <img width="720" height="1566" alt="image" src="https://github.com/user-attachments/assets/20c1ef44-ae46-4a08-8937-1768ba7626e4" />
+
+### 2. Dashboard (Main Screen)
+Pusat dari segala aktivitas pengguna.
+- **RecyclerView List:** Menampilkan daftar jurnal secara dinamis dengan ringkasan informasi (Judul, Tanggal, Preview isi).
+- **Mood Indicator:** Menampilkan hasil analisis AI langsung pada kartu jurnal di dashboard.
+- **Empty State:** Tampilan visual yang ramah jika pengguna belum memiliki catatan.
+- **Floating Action Button (FAB):** Akses cepat satu klik untuk menulis jurnal baru.
+> <img width="720" height="1471" alt="image" src="https://github.com/user-attachments/assets/5daa0269-18ed-4d1b-8460-76e96f87059d" />
+
+### 3. Add & Edit Journal
+Ruang kreatif bagi pengguna untuk mencurahkan isi hati.
+- **Clean Input:** Form input judul dan konten yang minimalis tanpa distraksi.
+- **Real-time Persistence:** Integrasi dengan Room Database memastikan setiap kata yang disimpan langsung masuk ke penyimpanan lokal.
+# Add Journal
+> <img width="266" height="475" alt="image" src="https://github.com/user-attachments/assets/d31b944e-63ba-4a9e-b766-169af6846633" />
+
+# Edit Journal
+> <img width="720" height="1485" alt="image" src="https://github.com/user-attachments/assets/f4571aee-c542-4ce6-9cc3-4423c78e506f" />
+
+### 4. Detail Journal & AI Analysis
+Layar utama untuk refleksi diri.
+- **Justified Content:** Teks jurnal ditampilkan dengan rata kiri-kanan agar nyaman dibaca seperti buku.
+- **AI Mood Analyzer Section:** 
+    - Tombol **"Analisis Perasaan"** yang akan memanggil Gemini AI.
+    - **Sahabat Personality:** Respon AI diprogram dengan kepribadian "Sahabat Karib" yang ceria, penuh semangat, dan menggunakan banyak emoji lucu (✨, 💖, 🌸).
+    - **Detailed Motivation:** Pesan motivasi yang dipersonalisasi berdasarkan konten jurnal pengguna.
+# Detail Journal
+> <img width="720" height="1535" alt="image" src="https://github.com/user-attachments/assets/26f8e166-389f-4ebd-b742-bfa6a0b14a65" />
+
+# AI Analysis
+> <img width="720" height="1576" alt="image" src="https://github.com/user-attachments/assets/92e42997-2a3d-4f73-84e0-ef7be3fedb05" />
+
+---
+
+## 🏗️ Cara Menjalankan Project
+
+1. **Clone Repository:**
+2.Setup API Key: Dapatkan API Key di Google AI Studio dan masukkan ke dalam file AiService.java:
+2. **Setup API Key:**
+   Dapatkan API Key di [Google AI Studio](https://aistudio.google.com/) dan masukkan ke dalam file `AiService.java`:
+3. **Build & Run:**
+   Buka project di Android Studio, lakukan *Gradle Sync*, dan jalankan pada Emulator atau Perangkat Fisik.
+
+---
+
+## 📝 Catatan Database
+Aplikasi ini menggunakan **SQLite (Room Database)**. Data bersifat privat dan hanya tersimpan di perangkat lokal pengguna (*Client-side storage*), sehingga tidak memerlukan server eksternal atau Firebase untuk penyimpanan data utama.
+
+---
+
+**Dibuat dengan ❤️ untuk membantu refleksi diri yang lebih baik.** 
