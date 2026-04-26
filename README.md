@@ -8,7 +8,7 @@
 - **Link ClickUp**   :
   - https://sharing.clickup.com/90181792800/g/h/2kzm1x10-598/fa7b2d413661937 (Gantt Chart)
   - https://sharing.clickup.com/90181792800/b/h/6-901812785911-2/4779a73b928d11a (Board)
-- **Link Youtube (UX)**: 
+- **Link Youtube (UX)**: https://youtube.com/shorts/kQpGxnvBd_E?si=_nnGA51YZ9bsjfUK
 
 # 📓 Jurnalify - Personal Journal with AI Mood Analyzer
 
@@ -87,7 +87,7 @@ Layar utama untuk refleksi diri.
     - **Sahabat Personality:** Respon AI diprogram dengan kepribadian "Sahabat Karib" yang ceria, penuh semangat, dan menggunakan banyak emoji lucu (✨, 💖, 🌸).
     - **Detailed Motivation:** Pesan motivasi yang dipersonalisasi berdasarkan konten jurnal pengguna.
 # Detail Journal
-> <img width="720" height="1552" alt="image" src="https://github.com/user-attachments/assets/c1093cc3-4444-43f4-b434-ea4442ccf0d3" />
+> <img width="720" height="1549" alt="image" src="https://github.com/user-attachments/assets/4b10aa24-005e-4890-a45c-1ea2644c4c96" />
 
 # AI Analysis
 > <img width="720" height="1576" alt="image" src="https://github.com/user-attachments/assets/92e42997-2a3d-4f73-84e0-ef7be3fedb05" />
