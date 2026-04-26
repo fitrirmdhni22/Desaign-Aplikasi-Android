@@ -5,8 +5,9 @@
 - **Kelas**          : I241A 
 - **Mata Kuliah**    : Pemrograman Mobile 2 (UTS)  
 - **Dosen Pengampu** : Donny Maulana, S.Kom., M.M.S.I.
-- **Link ClickUp**   : https://sharing.clickup.com/90181792800/g/h/2kzm1x10-638/c04a82a622fe0d1 (Gantt Chart)
-                       https://sharing.clickup.com/90181792800/b/h/4-90187740690-2/8e476401a4a6411 (Board)
+- **Link ClickUp**   :
+  - https://sharing.clickup.com/90181792800/g/h/2kzm1x10-638/c04a82a622fe0d1 (Gantt Chart)
+  - https://sharing.clickup.com/90181792800/b/h/4-90187740690-2/8e476401a4a6411 (Board)
 - **Link Youtube (UX)**: 
 
 # 📓 Jurnalify - Personal Journal with AI Mood Analyzer
@@ -60,15 +61,15 @@ Fitur spesial yang memberikan sentuhan personal kepada pengguna berdasarkan loka
 # Bendera Negara
 > <img width="720" height="1566" alt="image" src="https://github.com/user-attachments/assets/20c1ef44-ae46-4a08-8937-1768ba7626e4" />
 
-### 2. Dashboard (Main Screen)
+### 3. Dashboard (Main Screen)
 Pusat dari segala aktivitas pengguna.
 - **RecyclerView List:** Menampilkan daftar jurnal secara dinamis dengan ringkasan informasi (Judul, Tanggal, Preview isi).
 - **Mood Indicator:** Menampilkan hasil analisis AI langsung pada kartu jurnal di dashboard.
 - **Empty State:** Tampilan visual yang ramah jika pengguna belum memiliki catatan.
 - **Floating Action Button (FAB):** Akses cepat satu klik untuk menulis jurnal baru.
-> <img width="720" height="1471" alt="image" src="https://github.com/user-attachments/assets/5daa0269-18ed-4d1b-8460-76e96f87059d" />
+> <img width="720" height="1494" alt="image" src="https://github.com/user-attachments/assets/2ddfd8ff-1edb-4a44-9c5b-89aa4e56e4cd" />
 
-### 3. Add & Edit Journal
+### 4. Add & Edit Journal
 Ruang kreatif bagi pengguna untuk mencurahkan isi hati.
 - **Clean Input:** Form input judul dan konten yang minimalis tanpa distraksi.
 - **Real-time Persistence:** Integrasi dengan Room Database memastikan setiap kata yang disimpan langsung masuk ke penyimpanan lokal.
@@ -78,7 +79,7 @@ Ruang kreatif bagi pengguna untuk mencurahkan isi hati.
 # Edit Journal
 > <img width="720" height="1485" alt="image" src="https://github.com/user-attachments/assets/f4571aee-c542-4ce6-9cc3-4423c78e506f" />
 
-### 4. Detail Journal & AI Analysis
+### 5. Detail Journal & AI Analysis
 Layar utama untuk refleksi diri.
 - **Justified Content:** Teks jurnal ditampilkan dengan rata kiri-kanan agar nyaman dibaca seperti buku.
 - **AI Mood Analyzer Section:** 
@@ -86,10 +87,13 @@ Layar utama untuk refleksi diri.
     - **Sahabat Personality:** Respon AI diprogram dengan kepribadian "Sahabat Karib" yang ceria, penuh semangat, dan menggunakan banyak emoji lucu (✨, 💖, 🌸).
     - **Detailed Motivation:** Pesan motivasi yang dipersonalisasi berdasarkan konten jurnal pengguna.
 # Detail Journal
-> <img width="720" height="1535" alt="image" src="https://github.com/user-attachments/assets/26f8e166-389f-4ebd-b742-bfa6a0b14a65" />
+> <img width="720" height="1552" alt="image" src="https://github.com/user-attachments/assets/c1093cc3-4444-43f4-b434-ea4442ccf0d3" />
 
 # AI Analysis
 > <img width="720" height="1576" alt="image" src="https://github.com/user-attachments/assets/92e42997-2a3d-4f73-84e0-ef7be3fedb05" />
+
+### 6. Remove Journal
+> <img width="720" height="1479" alt="image" src="https://github.com/user-attachments/assets/d101b97c-73f3-4d47-8bbb-f7c5e14db4a8" />
 
 ---
 
