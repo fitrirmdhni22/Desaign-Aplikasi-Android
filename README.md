@@ -85,7 +85,6 @@ Layar utama untuk refleksi diri.
 ## 🏗️ Cara Menjalankan Project
 
 1. **Clone Repository:**
-2.Setup API Key: Dapatkan API Key di Google AI Studio dan masukkan ke dalam file AiService.java:
 2. **Setup API Key:**
    Dapatkan API Key di [Google AI Studio](https://aistudio.google.com/) dan masukkan ke dalam file `AiService.java`:
 3. **Build & Run:**
