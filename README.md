@@ -1,3 +1,11 @@
+## 👩‍💻 Informasi Mahasiswa
+
+- **Nama**           : Fitri Ramadhani  
+- **NIM**            : 312410085  
+- **Kelas**          : I24A1  
+- **Mata Kuliah**    : Pemrograman Mobile 2 (UTS)  
+- **Dosen Pengampu** : Donny Maulana, S.Kom., M.M.S.I.
+
 # 📓 Jurnalify - Personal Journal with AI Mood Analyzer
 
 **Jurnalify** adalah aplikasi catatan harian modern berbasis Android yang mengintegrasikan kecerdasan buatan (**AI**) untuk membantu pengguna memahami suasana hati mereka. Dengan pendekatan *Offline-First*, Jurnalify memastikan setiap kenangan tersimpan aman di perangkat pengguna.
